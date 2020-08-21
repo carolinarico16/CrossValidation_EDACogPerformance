@@ -1,0 +1,75 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 1916 -W 0 -X -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     Wavelet_features_performance_All-weka.filters.supervised.instance.SMOTE-C1-K10-P1000.0-S1-weka.filters.supervised.instance.SMOTE-C2-K20-P180.0-S1-weka.filters.unsupervised.attribute.Remove-R1-4,6-12,14-26,28-39,41,43-44,46-58,60-86,88,90-91,93-100,102-104,106-107,109-132,134-143,145-150,152-154,156-172,174-180,182-185,187-208,210-215,217-227,229-243,245-263,265-274,276-298,300-304,306-308,310-324,326,328-360
+Instances:    1916
+Attributes:   32
+              m_d1n
+              m_d1d1r
+              k_d1d2r
+              std_d2r
+              v_d2n
+              m_d2a
+              k_d2d1a
+              k_d3d1r
+              m_d3d1n
+              std_d3d1n
+              m_d3d2n
+              m_d3d2a
+              std_d3d2a
+              m_d4d2r
+              std_d4d2a
+              k_d5n
+              k_d5a
+              m_d5d2n
+              m_d6r
+              v_d6n
+              m_d6d2n
+              std_d6d2a
+              std_d7a
+              std_d7d2r
+              std_d8a
+              k_d8d1a
+              k_d9a
+              m_d9d1n
+              m_d9d1a
+              m_d10r
+              k_d10r
+              performance
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1352               70.5637 %
+Incorrectly Classified Instances       564               29.4363 %
+Kappa statistic                          0.5591
+Mean absolute error                      0.1967
+Root mean squared error                  0.4426
+Relative absolute error                 44.2702 %
+Root relative squared error             93.9112 %
+Total Number of Instances             1916     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,813    0,126    0,758      0,813    0,785      0,675    0,848     0,688     Bajo
+                 0,689    0,200    0,624      0,689    0,655      0,477    0,740     0,539     Medio
+                 0,620    0,114    0,744      0,620    0,676      0,531    0,751     0,607     Alto
+Weighted Avg.    0,706    0,146    0,709      0,706    0,705      0,561    0,779     0,611     
+
+=== Confusion Matrix ===
+
+   a   b   c   <-- classified as
+ 510  85  32 |   a = Bajo
+  84 430 110 |   b = Medio
+  79 174 412 |   c = Alto
+

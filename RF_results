@@ -1,0 +1,77 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     Wavelet_features_performance_All-weka.filters.supervised.instance.SMOTE-C1-K10-P1000.0-S1-weka.filters.supervised.instance.SMOTE-C2-K20-P180.0-S1-weka.filters.unsupervised.attribute.Remove-R1-4,6-12,14-26,28-39,41,43-44,46-58,60-86,88,90-91,93-100,102-104,106-107,109-132,134-143,145-150,152-154,156-172,174-180,182-185,187-208,210-215,217-227,229-243,245-263,265-274,276-298,300-304,306-308,310-324,326,328-360
+Instances:    1916
+Attributes:   32
+              m_d1n
+              m_d1d1r
+              k_d1d2r
+              std_d2r
+              v_d2n
+              m_d2a
+              k_d2d1a
+              k_d3d1r
+              m_d3d1n
+              std_d3d1n
+              m_d3d2n
+              m_d3d2a
+              std_d3d2a
+              m_d4d2r
+              std_d4d2a
+              k_d5n
+              k_d5a
+              m_d5d2n
+              m_d6r
+              v_d6n
+              m_d6d2n
+              std_d6d2a
+              std_d7a
+              std_d7d2r
+              std_d8a
+              k_d8d1a
+              k_d9a
+              m_d9d1n
+              m_d9d1a
+              m_d10r
+              k_d10r
+              performance
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 1.61 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1531               79.9061 %
+Incorrectly Classified Instances       385               20.0939 %
+Kappa statistic                          0.6988
+Mean absolute error                      0.2975
+Root mean squared error                  0.3479
+Relative absolute error                 66.9756 %
+Root relative squared error             73.8125 %
+Total Number of Instances             1916     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,947    0,074    0,861      0,947    0,902      0,853    0,983     0,967     Bajo
+                 0,748    0,122    0,748      0,748    0,748      0,627    0,902     0,814     Medio
+                 0,707    0,106    0,781      0,707    0,742      0,617    0,893     0,806     Alto
+Weighted Avg.    0,799    0,101    0,796      0,799    0,796      0,697    0,925     0,861     
+
+=== Confusion Matrix ===
+
+   a   b   c   <-- classified as
+ 594  13  20 |   a = Bajo
+  45 467 112 |   b = Medio
+  51 144 470 |   c = Alto
+

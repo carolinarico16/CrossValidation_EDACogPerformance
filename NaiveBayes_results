@@ -1,0 +1,265 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     Wavelet_features_performance_All-weka.filters.supervised.instance.SMOTE-C1-K10-P1000.0-S1-weka.filters.supervised.instance.SMOTE-C2-K20-P180.0-S1-weka.filters.unsupervised.attribute.Remove-R1-4,6-12,14-26,28-39,41,43-44,46-58,60-86,88,90-91,93-100,102-104,106-107,109-132,134-143,145-150,152-154,156-172,174-180,182-185,187-208,210-215,217-227,229-243,245-263,265-274,276-298,300-304,306-308,310-324,326,328-360
+Instances:    1916
+Attributes:   32
+              m_d1n
+              m_d1d1r
+              k_d1d2r
+              std_d2r
+              v_d2n
+              m_d2a
+              k_d2d1a
+              k_d3d1r
+              m_d3d1n
+              std_d3d1n
+              m_d3d2n
+              m_d3d2a
+              std_d3d2a
+              m_d4d2r
+              std_d4d2a
+              k_d5n
+              k_d5a
+              m_d5d2n
+              m_d6r
+              v_d6n
+              m_d6d2n
+              std_d6d2a
+              std_d7a
+              std_d7d2r
+              std_d8a
+              k_d8d1a
+              k_d9a
+              m_d9d1n
+              m_d9d1a
+              m_d10r
+              k_d10r
+              performance
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                 Class
+Attribute         Bajo   Medio    Alto
+                (0.33)  (0.33)  (0.35)
+=======================================
+m_d1n
+  mean               -0      -0      -0
+  std. dev.           0       0       0
+  weight sum        627     624     665
+  precision           0       0       0
+
+m_d1d1r
+  mean               -0      -0      -0
+  std. dev.           0       0       0
+  weight sum        627     624     665
+  precision           0       0       0
+
+k_d1d2r
+  mean          34.9725 39.0682  45.756
+  std. dev.     28.0548 40.8428 60.1613
+  weight sum        627     624     665
+  precision      0.3145  0.3145  0.3145
+
+std_d2r
+  mean           0.0067  0.0068  0.0068
+  std. dev.      0.0021  0.0023  0.0025
+  weight sum        627     624     665
+  precision           0       0       0
+
+v_d2n
+  mean            0.029  0.0305  0.0311
+  std. dev.      0.0147  0.0174  0.0192
+  weight sum        627     624     665
+  precision           0       0       0
+
+m_d2a
+  mean           0.0021  0.0023  0.0023
+  std. dev.      0.0011  0.0013  0.0014
+  weight sum        627     624     665
+  precision           0       0       0
+
+k_d2d1a
+  mean           41.175 42.8484 51.5471
+  std. dev.     34.9447 41.4825 63.3038
+  weight sum        627     624     665
+  precision      0.2195  0.2195  0.2195
+
+k_d3d1r
+  mean          10.0528 11.0721 12.4639
+  std. dev.      6.9436  9.4701 13.4836
+  weight sum        627     624     665
+  precision      0.0633  0.0633  0.0633
+
+m_d3d1n
+  mean          -0.0003 -0.0003 -0.0004
+  std. dev.      0.0005  0.0005  0.0007
+  weight sum        627     624     665
+  precision           0       0       0
+
+std_d3d1n
+  mean           0.2693  0.2719  0.2718
+  std. dev.      0.0601  0.0728  0.0818
+  weight sum        627     624     665
+  precision      0.0002  0.0002  0.0002
+
+m_d3d2n
+  mean               -0      -0      -0
+  std. dev.      0.0003  0.0003  0.0004
+  weight sum        627     624     665
+  precision           0       0       0
+
+m_d3d2a
+  mean           0.0421  0.0435  0.0435
+  std. dev.      0.0194  0.0222  0.0239
+  weight sum        627     624     665
+  precision      0.0001  0.0001  0.0001
+
+std_d3d2a
+  mean           0.0716  0.0711  0.0701
+  std. dev.      0.0194  0.0202  0.0219
+  weight sum        627     624     665
+  precision      0.0001  0.0001  0.0001
+
+m_d4d2r
+  mean          -0.0003 -0.0005 -0.0005
+  std. dev.      0.0004  0.0015  0.0027
+  weight sum        627     624     665
+  precision           0       0       0
+
+std_d4d2a
+  mean           0.6093   0.595  0.5786
+  std. dev.      0.1393  0.1381  0.1591
+  weight sum        627     624     665
+  precision      0.0004  0.0004  0.0004
+
+k_d5n
+  mean           2.6713  2.8864  3.0924
+  std. dev.      0.8867  1.4041  2.0143
+  weight sum        627     624     665
+  precision      0.0094  0.0094  0.0094
+
+k_d5a
+  mean           2.4241  2.7886  2.9881
+  std. dev.      0.9078  1.6619  2.3236
+  weight sum        627     624     665
+  precision      0.0117  0.0117  0.0117
+
+m_d5d2n
+  mean           0.0017  0.0018  0.0014
+  std. dev.      0.0076  0.0076  0.0074
+  weight sum        627     624     665
+  precision           0       0       0
+
+m_d6r
+  mean           0.0223  0.0212  0.0184
+  std. dev.      0.0115  0.0111  0.0123
+  weight sum        627     624     665
+  precision      0.0001  0.0001  0.0001
+
+v_d6n
+  mean           0.1388  0.1358  0.1397
+  std. dev.      0.0449  0.0429  0.0565
+  weight sum        627     624     665
+  precision      0.0002  0.0002  0.0002
+
+m_d6d2n
+  mean          -0.0002 -0.0007 -0.0003
+  std. dev.      0.0051  0.0057   0.007
+  weight sum        627     624     665
+  precision           0       0       0
+
+std_d6d2a
+  mean           0.8141  0.8172  0.7969
+  std. dev.      0.3455  0.3575  0.4221
+  weight sum        627     624     665
+  precision       0.001   0.001   0.001
+
+std_d7a
+  mean           0.3683  0.3626  0.3758
+  std. dev.      0.1283  0.1377  0.1564
+  weight sum        627     624     665
+  precision      0.0004  0.0004  0.0004
+
+std_d7d2r
+  mean           1.3425  1.2978  1.3825
+  std. dev.      0.5584  0.5733  0.6698
+  weight sum        627     624     665
+  precision      0.0017  0.0017  0.0017
+
+std_d8a
+  mean           0.4929  0.4944  0.4706
+  std. dev.      0.1641  0.1995  0.1977
+  weight sum        627     624     665
+  precision      0.0007  0.0007  0.0007
+
+k_d8d1a
+  mean           4.8126  4.8485  4.9732
+  std. dev.      1.1665  1.3372  1.5927
+  weight sum        627     624     665
+  precision      0.0058  0.0058  0.0058
+
+k_d9a
+  mean           4.8087  4.8466  4.9647
+  std. dev.      1.5986  1.6169   1.746
+  weight sum        627     624     665
+  precision      0.0044  0.0044  0.0044
+
+m_d9d1n
+  mean           0.0029  0.0029  0.0025
+  std. dev.      0.0021  0.0023  0.0029
+  weight sum        627     624     665
+  precision           0       0       0
+
+m_d9d1a
+  mean           0.6565  0.6868   0.703
+  std. dev.      0.3526  0.3212  0.3471
+  weight sum        627     624     665
+  precision      0.0011  0.0011  0.0011
+
+m_d10r
+  mean          -0.0015 -0.0015 -0.0014
+  std. dev.      0.0023  0.0026  0.0026
+  weight sum        627     624     665
+  precision           0       0       0
+
+k_d10r
+  mean           5.8181   6.194  6.2118
+  std. dev.      1.2087  1.2754  1.4013
+  weight sum        627     624     665
+  precision      0.0032  0.0032  0.0032
+
+
+
+Time taken to build model: 0.08 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         811               42.3278 %
+Incorrectly Classified Instances      1105               57.6722 %
+Kappa statistic                          0.1385
+Mean absolute error                      0.3856
+Root mean squared error                  0.5702
+Relative absolute error                 86.791  %
+Root relative squared error            120.9731 %
+Total Number of Instances             1916     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,866    0,613    0,407      0,866    0,554      0,258    0,669     0,471     Bajo
+                 0,138    0,121    0,355      0,138    0,199      0,024    0,531     0,355     Medio
+                 0,274    0,127    0,534      0,274    0,362      0,182    0,653     0,503     Alto
+Weighted Avg.    0,423    0,284    0,434      0,423    0,372      0,156    0,619     0,445     
+
+=== Confusion Matrix ===
+
+   a   b   c   <-- classified as
+ 543  41  43 |   a = Bajo
+ 422  86 116 |   b = Medio
+ 368 115 182 |   c = Alto
+

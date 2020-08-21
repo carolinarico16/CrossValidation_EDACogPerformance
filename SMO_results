@@ -1,0 +1,201 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     Wavelet_features_performance_All-weka.filters.supervised.instance.SMOTE-C1-K10-P1000.0-S1-weka.filters.supervised.instance.SMOTE-C2-K20-P180.0-S1-weka.filters.unsupervised.attribute.Remove-R1-4,6-12,14-26,28-39,41,43-44,46-58,60-86,88,90-91,93-100,102-104,106-107,109-132,134-143,145-150,152-154,156-172,174-180,182-185,187-208,210-215,217-227,229-243,245-263,265-274,276-298,300-304,306-308,310-324,326,328-360
+Instances:    1916
+Attributes:   32
+              m_d1n
+              m_d1d1r
+              k_d1d2r
+              std_d2r
+              v_d2n
+              m_d2a
+              k_d2d1a
+              k_d3d1r
+              m_d3d1n
+              std_d3d1n
+              m_d3d2n
+              m_d3d2a
+              std_d3d2a
+              m_d4d2r
+              std_d4d2a
+              k_d5n
+              k_d5a
+              m_d5d2n
+              m_d6r
+              v_d6n
+              m_d6d2n
+              std_d6d2a
+              std_d7a
+              std_d7d2r
+              std_d8a
+              k_d8d1a
+              k_d9a
+              m_d9d1n
+              m_d9d1a
+              m_d10r
+              k_d10r
+              performance
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: Bajo, Medio
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.1651 * (normalized) m_d1n
+ +       0.4473 * (normalized) m_d1d1r
+ +       1.0141 * (normalized) k_d1d2r
+ +       1.0518 * (normalized) std_d2r
+ +       0.1506 * (normalized) v_d2n
+ +       2.0371 * (normalized) m_d2a
+ +      -1.0736 * (normalized) k_d2d1a
+ +       1.404  * (normalized) k_d3d1r
+ +       1.0455 * (normalized) m_d3d1n
+ +       0.8288 * (normalized) std_d3d1n
+ +       0.9606 * (normalized) m_d3d2n
+ +      -0.2782 * (normalized) m_d3d2a
+ +      -0.8857 * (normalized) std_d3d2a
+ +      -1.8705 * (normalized) m_d4d2r
+ +      -1.1628 * (normalized) std_d4d2a
+ +       2.2261 * (normalized) k_d5n
+ +       3.5747 * (normalized) k_d5a
+ +       0.1091 * (normalized) m_d5d2n
+ +       1.5584 * (normalized) m_d6r
+ +      -1.6215 * (normalized) v_d6n
+ +      -1.2922 * (normalized) m_d6d2n
+ +       0.2201 * (normalized) std_d6d2a
+ +       0.5198 * (normalized) std_d7a
+ +      -0.6972 * (normalized) std_d7d2r
+ +       1.3003 * (normalized) std_d8a
+ +      -0.8479 * (normalized) k_d8d1a
+ +      -0.4375 * (normalized) k_d9a
+ +      -0.3368 * (normalized) m_d9d1n
+ +       2.3727 * (normalized) m_d9d1a
+ +      -2.4836 * (normalized) m_d10r
+ +       3.734  * (normalized) k_d10r
+ -       2.3786
+
+Number of kernel evaluations: 112117 (72.439% cached)
+
+Classifier for classes: Bajo, Alto
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.8518 * (normalized) m_d1n
+ +       0.6954 * (normalized) m_d1d1r
+ +       1.1579 * (normalized) k_d1d2r
+ +       0.3093 * (normalized) std_d2r
+ +       0.8072 * (normalized) v_d2n
+ +       1.0399 * (normalized) m_d2a
+ +      -0.4789 * (normalized) k_d2d1a
+ +       1.1503 * (normalized) k_d3d1r
+ +      -0.4368 * (normalized) m_d3d1n
+ +       2.2101 * (normalized) std_d3d1n
+ +      -0.0088 * (normalized) m_d3d2n
+ +      -1.309  * (normalized) m_d3d2a
+ +      -0.1519 * (normalized) std_d3d2a
+ +      -0.4437 * (normalized) m_d4d2r
+ +      -1.6873 * (normalized) std_d4d2a
+ +       2.9715 * (normalized) k_d5n
+ +       2.2321 * (normalized) k_d5a
+ +      -0.2759 * (normalized) m_d5d2n
+ +      -0.5507 * (normalized) m_d6r
+ +      -0.0685 * (normalized) v_d6n
+ +      -0.0201 * (normalized) m_d6d2n
+ +      -0.1407 * (normalized) std_d6d2a
+ +      -0.0294 * (normalized) std_d7a
+ +       0.6889 * (normalized) std_d7d2r
+ +      -0.7007 * (normalized) std_d8a
+ +       0.4858 * (normalized) k_d8d1a
+ +      -0.264  * (normalized) k_d9a
+ +      -1.953  * (normalized) m_d9d1n
+ +       1.4468 * (normalized) m_d9d1a
+ +      -0.8304 * (normalized) m_d10r
+ +       2.6701 * (normalized) k_d10r
+ -       1.4601
+
+Number of kernel evaluations: 131312 (70.733% cached)
+
+Classifier for classes: Medio, Alto
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.0755 * (normalized) m_d1n
+ +      -0.2809 * (normalized) m_d1d1r
+ +       0.686  * (normalized) k_d1d2r
+ +      -1.1104 * (normalized) std_d2r
+ +       0.6823 * (normalized) v_d2n
+ +      -1.2072 * (normalized) m_d2a
+ +       1.8768 * (normalized) k_d2d1a
+ +       0.4495 * (normalized) k_d3d1r
+ +      -0.7706 * (normalized) m_d3d1n
+ +       1.5961 * (normalized) std_d3d1n
+ +      -0.5506 * (normalized) m_d3d2n
+ +      -0.5551 * (normalized) m_d3d2a
+ +       0.76   * (normalized) std_d3d2a
+ +       0.2218 * (normalized) m_d4d2r
+ +      -0.2407 * (normalized) std_d4d2a
+ +       1.3185 * (normalized) k_d5n
+ +      -0.9306 * (normalized) k_d5a
+ +      -0.2319 * (normalized) m_d5d2n
+ +      -2.8166 * (normalized) m_d6r
+ +       1.9586 * (normalized) v_d6n
+ +       0.3534 * (normalized) m_d6d2n
+ +       0.7174 * (normalized) std_d6d2a
+ +      -0.7794 * (normalized) std_d7a
+ +       2.7112 * (normalized) std_d7d2r
+ +      -1.6603 * (normalized) std_d8a
+ +       1.9308 * (normalized) k_d8d1a
+ +       0.7868 * (normalized) k_d9a
+ +      -1.6028 * (normalized) m_d9d1n
+ +      -0.4804 * (normalized) m_d9d1a
+ +       1.1653 * (normalized) m_d10r
+ +      -0.4655 * (normalized) k_d10r
+ +       0.2065
+
+Number of kernel evaluations: 132564 (72.812% cached)
+
+
+
+Time taken to build model: 0.38 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         810               42.2756 %
+Incorrectly Classified Instances      1106               57.7244 %
+Kappa statistic                          0.1362
+Mean absolute error                      0.4054
+Root mean squared error                  0.5054
+Relative absolute error                 91.2443 %
+Root relative squared error            107.2265 %
+Total Number of Instances             1916     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,678    0,471    0,412      0,678    0,512      0,195    0,629     0,402     Bajo
+                 0,285    0,183    0,429      0,285    0,343      0,116    0,570     0,368     Medio
+                 0,311    0,209    0,441      0,311    0,365      0,113    0,570     0,391     Alto
+Weighted Avg.    0,423    0,287    0,428      0,423    0,406      0,141    0,589     0,387     
+
+=== Confusion Matrix ===
+
+   a   b   c   <-- classified as
+ 425 102 100 |   a = Bajo
+ 284 178 162 |   b = Medio
+ 323 135 207 |   c = Alto
+

@@ -1,0 +1,75 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.Bagging -P 100 -S 1 -num-slots 1 -I 10 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+Relation:     Wavelet_features_performance_All-weka.filters.supervised.instance.SMOTE-C1-K10-P1000.0-S1-weka.filters.supervised.instance.SMOTE-C2-K20-P180.0-S1-weka.filters.unsupervised.attribute.Remove-R1-4,6-12,14-26,28-39,41,43-44,46-58,60-86,88,90-91,93-100,102-104,106-107,109-132,134-143,145-150,152-154,156-172,174-180,182-185,187-208,210-215,217-227,229-243,245-263,265-274,276-298,300-304,306-308,310-324,326,328-360
+Instances:    1916
+Attributes:   32
+              m_d1n
+              m_d1d1r
+              k_d1d2r
+              std_d2r
+              v_d2n
+              m_d2a
+              k_d2d1a
+              k_d3d1r
+              m_d3d1n
+              std_d3d1n
+              m_d3d2n
+              m_d3d2a
+              std_d3d2a
+              m_d4d2r
+              std_d4d2a
+              k_d5n
+              k_d5a
+              m_d5d2n
+              m_d6r
+              v_d6n
+              m_d6d2n
+              std_d6d2a
+              std_d7a
+              std_d7d2r
+              std_d8a
+              k_d8d1a
+              k_d9a
+              m_d9d1n
+              m_d9d1a
+              m_d10r
+              k_d10r
+              performance
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bagging with 10 iterations and base learner
+
+weka.classifiers.trees.J48 -C 0.25 -M 2
+
+Time taken to build model: 3.2 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1323               69.0501 %
+Incorrectly Classified Instances       593               30.9499 %
+Kappa statistic                          0.536 
+Mean absolute error                      0.2959
+Root mean squared error                  0.3723
+Relative absolute error                 66.6    %
+Root relative squared error             78.9831 %
+Total Number of Instances             1916     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,845    0,109    0,790      0,845    0,817      0,724    0,947     0,904     Bajo
+                 0,644    0,189    0,622      0,644    0,633      0,451    0,820     0,682     Medio
+                 0,588    0,166    0,653      0,588    0,619      0,433    0,818     0,692     Alto
+Weighted Avg.    0,691    0,155    0,688      0,691    0,688      0,534    0,861     0,758     
+
+=== Confusion Matrix ===
+
+   a   b   c   <-- classified as
+ 530  43  54 |   a = Bajo
+  68 402 154 |   b = Medio
+  73 201 391 |   c = Alto
+
