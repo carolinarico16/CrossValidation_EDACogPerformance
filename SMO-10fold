@@ -1,0 +1,36 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 10,13 -D 3 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 0 -stddev-width 0 -sig-width 0 -count-width 5 -print-col-names -print-row-names -enum-col-names"
+Analysing:  Percent_correct
+Datasets:   10
+Resultsets: 9
+Confidence: 0.05 (two tailed)
+Sorted by:  Percent_correct
+Date:       6/08/20 09:45 AM
+
+
+Dataset                   (1) 79 41.14 | (2) (3) (4) (5) (6) (7) (8) (9)
+------------------------------------------------------------------------
+1                          (1)   41.15 |                                
+3                          (1)   41.15 |                                
+7                          (0)         |                                
+8                          (0)         |                                
+6                          (0)         |                                
+5                          (0)         |                                
+4                          (0)         |                                
+2                          (0)         |                                
+9                          (0)         |                                
+10                         (0)         |                                
+------------------------------------------------------------------------
+                               (v/ /* (0/ (0/ (0/ (0/ (0/ (0/ (0/ (0/0/0
+
+
+Key:
+(1) 79 41.145833
+(2) 88 45.833333
+(3) 74 38.541667
+(4) 90 46.875
+(5) 76 39.583333
+(6) 91 47.643979
+(7) 78 40.837696
+(8) 76 39.790576
+(9) 79 41.361257
+
